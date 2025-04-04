@@ -49,6 +49,10 @@ if 'time_limit' not in st.session_state:
     st.session_state.time_limit = 60
 if 'records' not in st.session_state:
     st.session_state.records = []
+if 'submitted' not in st.session_state:
+    st.session_state.submitted = False
+if 'time_expired' not in st.session_state:
+    st.session_state.time_expired = False
 
 # 사이드바에 설정
 st.sidebar.header("퀴즈 설정")
@@ -75,6 +79,7 @@ def start_quiz():
     st.session_state.quiz_words = all_words.sample(st.session_state.total_questions).reset_index(drop=True)
     st.session_state.start_time = time.time()
     st.session_state.quiz_in_progress = True
+    st.session_state.time_expired = False
 
 # 퀴즈 종료 함수
 def end_quiz():
@@ -94,6 +99,27 @@ def end_quiz():
         "날짜": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     }
     st.session_state.records.append(record)
+
+# 정답 제출 콜백 함수
+def submit_answer():
+    current_word = st.session_state.quiz_words.iloc[st.session_state.current_question]
+    
+    if quiz_mode == "영어 → 한국어":
+        answer = current_word['한국어 뜻']
+        user_answer = st.session_state[f"answer_{st.session_state.current_question}"]
+    else:
+        answer = current_word['영어 단어']
+        user_answer = st.session_state[f"answer_{st.session_state.current_question}"]
+    
+    if user_answer.strip().lower() in answer.lower():
+        st.session_state.score += 1
+        st.session_state.answer_correct = True
+    else:
+        st.session_state.answer_correct = False
+        st.session_state.correct_answer = answer
+    
+    st.session_state.current_question += 1
+    st.session_state.submitted = True
 
 # 스타트 버튼
 if not st.session_state.quiz_in_progress:
@@ -123,10 +149,10 @@ if st.session_state.quiz_in_progress:
         st.write(f"남은 시간: {int(remaining_time)}초")
         
         # 시간 초과 확인
-        if remaining_time <= 0:
+        if remaining_time <= 0 and not st.session_state.time_expired:
             st.error("시간 초과!")
+            st.session_state.time_expired = True
             end_quiz()
-            st.rerun()
     
     if st.session_state.current_question < st.session_state.total_questions:
         # 진행 상황 표시
@@ -139,26 +165,25 @@ if st.session_state.quiz_in_progress:
         # 퀴즈 출제 방식
         if quiz_mode == "영어 → 한국어":
             question = current_word['영어 단어']
-            answer = current_word['한국어 뜻']
             st.subheader(f"Q: {question}")
-            user_answer = st.text_input("한국어 뜻을 입력하세요:", key=f"answer_{st.session_state.current_question}")
+            st.text_input("한국어 뜻을 입력하세요:", key=f"answer_{st.session_state.current_question}", 
+                         on_change=submit_answer)
         else:
             question = current_word['한국어 뜻']
-            answer = current_word['영어 단어']
             st.subheader(f"Q: {question}")
-            user_answer = st.text_input("영어 단어를 입력하세요:", key=f"answer_{st.session_state.current_question}")
+            st.text_input("영어 단어를 입력하세요:", key=f"answer_{st.session_state.current_question}", 
+                         on_change=submit_answer)
         
-        # 정답 확인 버튼
-        if st.button("제출", key=f"submit_{st.session_state.current_question}"):
-            if user_answer.strip().lower() in answer.lower():
+        # 제출 버튼 (추가적인 옵션으로 제공)
+        st.button("제출", key=f"submit_{st.session_state.current_question}", on_click=submit_answer)
+        
+        # 정답/오답 피드백 표시
+        if st.session_state.submitted:
+            if st.session_state.answer_correct:
                 st.success("정답입니다! 👍")
-                st.session_state.score += 1
             else:
-                st.error(f"오답입니다. 정답은 '{answer}' 입니다.")
-            
-            # 다음 문제로 이동
-            st.session_state.current_question += 1
-            st.rerun()
+                st.error(f"오답입니다. 정답은 '{st.session_state.correct_answer}' 입니다.")
+            st.session_state.submitted = False
     else:
         end_quiz()
 
