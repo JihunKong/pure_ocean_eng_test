@@ -53,6 +53,8 @@ if 'submitted' not in st.session_state:
     st.session_state.submitted = False
 if 'time_expired' not in st.session_state:
     st.session_state.time_expired = False
+if 'processing_answer' not in st.session_state:
+    st.session_state.processing_answer = False
 
 # 사이드바에 설정
 st.sidebar.header("퀴즈 설정")
@@ -102,6 +104,12 @@ def end_quiz():
 
 # 정답 제출 콜백 함수
 def submit_answer():
+    # 이미 처리 중인 경우 중복 호출 방지
+    if st.session_state.processing_answer:
+        return
+    
+    st.session_state.processing_answer = True
+    
     try:
         current_word = st.session_state.quiz_words.iloc[st.session_state.current_question]
         
@@ -124,6 +132,13 @@ def submit_answer():
     except Exception as e:
         st.error(f"오류가 발생했습니다: {str(e)}")
         st.session_state.submitted = False
+    
+    st.session_state.processing_answer = False
+
+# 입력 필드 값 변경 콜백 함수
+def on_input_change():
+    # 엔터 키 입력 시에만 정답 제출 처리
+    submit_answer()
 
 # 스타트 버튼
 if not st.session_state.quiz_in_progress:
@@ -170,16 +185,16 @@ if st.session_state.quiz_in_progress:
         if quiz_mode == "영어 → 한국어":
             question = current_word['영어 단어']
             st.subheader(f"Q: {question}")
-            st.text_input("한국어 뜻을 입력하세요:", key=f"answer_{st.session_state.current_question}", 
-                         on_change=submit_answer)
+            input_key = f"answer_{st.session_state.current_question}"
+            st.text_input("한국어 뜻을 입력하세요:", key=input_key, on_change=on_input_change)
         else:
             question = current_word['한국어 뜻']
             st.subheader(f"Q: {question}")
-            st.text_input("영어 단어를 입력하세요:", key=f"answer_{st.session_state.current_question}", 
-                         on_change=submit_answer)
+            input_key = f"answer_{st.session_state.current_question}"
+            st.text_input("영어 단어를 입력하세요:", key=input_key, on_change=on_input_change)
         
-        # 제출 버튼 (추가적인 옵션으로 제공)
-        st.button("제출", key=f"submit_{st.session_state.current_question}", on_click=submit_answer)
+        # 제출 버튼 대신 메시지 표시
+        st.caption("정답을 입력하고 엔터 키를 누르세요")
         
         # 정답/오답 피드백 표시
         if st.session_state.submitted:
