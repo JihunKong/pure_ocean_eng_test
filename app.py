@@ -102,24 +102,28 @@ def end_quiz():
 
 # 정답 제출 콜백 함수
 def submit_answer():
-    current_word = st.session_state.quiz_words.iloc[st.session_state.current_question]
-    
-    if quiz_mode == "영어 → 한국어":
-        answer = current_word['한국어 뜻']
-        user_answer = st.session_state[f"answer_{st.session_state.current_question}"]
-    else:
-        answer = current_word['영어 단어']
-        user_answer = st.session_state[f"answer_{st.session_state.current_question}"]
-    
-    if user_answer.strip().lower() in answer.lower():
-        st.session_state.score += 1
-        st.session_state.answer_correct = True
-    else:
-        st.session_state.answer_correct = False
-        st.session_state.correct_answer = answer
-    
-    st.session_state.current_question += 1
-    st.session_state.submitted = True
+    try:
+        current_word = st.session_state.quiz_words.iloc[st.session_state.current_question]
+        
+        if quiz_mode == "영어 → 한국어":
+            answer = current_word['한국어 뜻']
+            user_answer = st.session_state.get(f"answer_{st.session_state.current_question}", "")
+        else:
+            answer = current_word['영어 단어']
+            user_answer = st.session_state.get(f"answer_{st.session_state.current_question}", "")
+        
+        if user_answer.strip().lower() in answer.lower():
+            st.session_state.score += 1
+            st.session_state.answer_correct = True
+        else:
+            st.session_state.answer_correct = False
+            st.session_state.correct_answer = answer
+        
+        st.session_state.current_question += 1
+        st.session_state.submitted = True
+    except Exception as e:
+        st.error(f"오류가 발생했습니다: {str(e)}")
+        st.session_state.submitted = False
 
 # 스타트 버튼
 if not st.session_state.quiz_in_progress:
