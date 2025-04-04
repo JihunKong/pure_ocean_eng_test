@@ -126,7 +126,7 @@ if st.session_state.quiz_in_progress:
         if remaining_time <= 0:
             st.error("시간 초과!")
             end_quiz()
-            st.experimental_rerun()
+            st.rerun()
     
     if st.session_state.current_question < st.session_state.total_questions:
         # 진행 상황 표시
@@ -158,7 +158,7 @@ if st.session_state.quiz_in_progress:
             
             # 다음 문제로 이동
             st.session_state.current_question += 1
-            st.experimental_rerun()
+            st.rerun()
     else:
         end_quiz()
 
