@@ -3,43 +3,43 @@
 | 번호 | 영어 단어 | 한국어 뜻 |
 |------|----------|-----------|
 | 215 | dormitory | 공동 침실, 기숙사 |
-| 216 | in particular | 특히(특별히), 특별한 |
+| 216 | in particular | 특히, 특별히, 특별한 |
 | 217 | be frightened of | ~을 무서워하다 |
 | 218 | make fun of | ~을 놀리다 |
 | 219 | terrace | 테라스 |
 | 220 | feather | 털, 깃털 |
 | 221 | stare at | ~을 응시하다 |
-| 222 | encouragement | 격려(고무) |
-| 223 | opposite | 다른 편(쪽)의 건너편의 |
+| 222 | encouragement | 격려, 고무 |
+| 223 | opposite | 다른 편의, 다른 쪽의, 건너편의 |
 | 224 | knock into | ~에 부딪치다, ~와 우연히 만나다 |
 | 225 | shout | 외치다, 소리치다 |
 | 226 | be astonished | 놀라다 |
 | 227 | harmony | 조화, 화합, 화음, 화성법 |
-| 228 | speechless | 말을 못 하는 |
+| 228 | speechless | 말을 못하는 |
 | 229 | brilliancy | 훌륭하게, 잘 |
-| 230 | correction | 정정(수정) |
+| 230 | correction | 정정, 수정 |
 | 231 | dormitory | 공동 침실, 기숙사 |
 | 232 | extraordinary | 기이한, 놀라운, 비범한, 대단한 |
-| 233 | encouragement | 격려(고무) |
+| 233 | encouragement | 격려, 고무 |
 | 234 | genuine | 진짜의, 진품의, 진실한, 진심 어린 |
-| 235 | respect | 존경(심), 경의, 존중, 정중 |
+| 235 | respect | 존경, 존경심, 경의, 존중, 정중 |
 | 236 | attempt | 시도, 시도하다, 애써 해보다 |
 | 237 | categorize | 분류하다, ~을 범주에 넣다, 분류하다 |
-| 238 | socialize | 사귀다(어울리다/교제하다) |
+| 238 | socialize | 사귀다, 어울리다, 교제하다 |
 | 239 | extrovert | 외향적인 사람 |
 | 240 | comfortable | 편안한, 쾌적한 |
 | 241 | complement | 보완하다, 덧붙이다 |
 | 242 | accomplishment | 성취, 공적, 재주, 기량, 완수 |
 | 243 | collaborate | 협력하다, 공동으로 작업하다 |
 | 244 | personality | 성격, 인격, 개성, 유명인 |
-| 245 | get on | 성공하다, 하다(지내다), 꾸려 나가다 |
+| 245 | get on | 성공하다, 하다, 지내다, 꾸려 나가다 |
 | 246 | be divided into | ~로 나누어지다 |
 | 247 | passenger | 승객 |
-| 248 | introvert | 내향적인(성격) |
+| 248 | introvert | 내향적인, 내향적인 성격 |
 | 249 | furious | 몹시 화가 난 |
 | 250 | arrest | 체포하다 |
-| 251 | resistance | 저항(반대) |
-| 252 | inspirational | 영감(감화/자극)을 주는 |
+| 251 | resistance | 저항, 반대 |
+| 252 | inspirational | 영감을 주는, 감화를 주는, 자극을 주는 |
 | 253 | assertive | 확신에 찬, 적극적인 |
 | 254 | sociable | 사람들과 어울리기 좋아하는 |
 | 255 | trample | 짓밟다, 밟아 뭉개다 |
@@ -58,35 +58,35 @@
 | 268 | simultaneously | 동시에 |
 | 269 | engineering | 공학 기술, 공학 |
 | 270 | brilliant | 훌륭한, 멋진 |
-| 271 | come up with | 생산하다, 제시(제안)하다 |
+| 271 | come up with | 생산하다, 제시하다, 제안하다 |
 | 272 | enable | ~을 할 수 있게 하다 |
 | 273 | terrific | 아주 좋은, 멋진, 훌륭한 |
 | 274 | impossible | 불가능한 |
-| 275 | entrepreneur | 사업가(기업가) |
+| 275 | entrepreneur | 사업가, 기업가 |
 | 276 | forest | 숲, 삼림 |
-| 277 | unseen | 눈에 보이지(띄지) 않는 |
-| 278 | remain | 계속(여전히) ~이다 |
+| 277 | unseen | 눈에 보이지 않는, 눈에 띄지 않는 |
+| 278 | remain | 계속 ~이다, 여전히 ~이다 |
 | 279 | worship | 예배, 숭배 |
 | 280 | century | 세기, 100년 |
-| 281 | decrease | 줄이다(감소시키다) |
-| 282 | approximately | 거의(정확하게), 가까이 |
+| 281 | decrease | 줄이다, 감소시키다 |
+| 282 | approximately | 거의 정확하게, 가까이 |
 | 283 | habitat | 서식지 |
 | 284 | extinct | 멸종된 |
 | 285 | estimate | 추정치, 추산 |
 | 286 | subspecies | 아종, 변종 |
 | 287 | extinct | 멸종된, 사라진 |
-| 288 | predict | 예측(예견)하다 |
+| 288 | predict | 예측하다, 예견하다 |
 | 289 | disappear | 사라지다, 보이지 않게 되다 |
 | 290 | expert | 전문가, 숙련된 |
-| 291 | maintain | 유지하다(지키다) |
+| 291 | maintain | 유지하다, 지키다 |
 | 292 | deer | 사슴 |
-| 293 | vegetation | 초목(식물) |
+| 293 | vegetation | 초목, 식물 |
 | 294 | cause | 야기하다, 원인, 이유 |
 | 295 | exception | 예외 |
 | 296 | rely on | 기대다, 의존하다 |
-| 297 | survive | 살아남다, 생존(존속)하다 |
+| 297 | survive | 살아남다, 생존하다, 존속하다 |
 | 298 | disappearance | 사라짐 |
-| 299 | threaten | 위협(협박)하다 |
+| 299 | threaten | 위협하다, 협박하다 |
 | 300 | conserve | 아끼다, 아껴 쓰다 |
 | 301 | a variety of | 다양한, 여러가지의 |
 | 302 | electricity | 전기, 전력, 열광, 흥분 |
@@ -96,7 +96,7 @@
 | 306 | plantation | 농장, 조림지 |
 | 307 | destroy | 파괴하다, 말살하다, 죽이다 |
 | 308 | sustainable | 지속 가능한 |
-| 309 | rise | 증가(상승) |
+| 309 | rise | 증가, 상승 |
 | 310 | palm | 손바닥, 야자과 나무 |
 | 311 | difference | 차이, 다름 |
 | 312 | remember | 기억하다 |
@@ -107,7 +107,7 @@
 | 번호 | 영어 단어 | 한국어 뜻 |
 |------|----------|-----------|
 | 1 | community | 주민, 지역 사회 |
-| 2 | previous | 이전(전)의 |
+| 2 | previous | 이전의, 전의 |
 | 3 | booth | 작은 공간, 부스, 점포, 전시장 |
 | 4 | reserve | 예약하다, 보유하다, 보류하다 |
 | 5 | complete | 완료하다, 끝마치다, 보류하다 |
@@ -119,7 +119,7 @@
 | 11 | upcoming | 다가오는, 곧 있을 |
 | 12 | activity | 활동, 움직임, 활기 |
 | 13 | throughout | 도처에, 종일, 쭉 내내 |
-| 14 | available | 구할(이용할) 수 있는 |
+| 14 | available | 구할 수 있는, 이용할 수 있는 |
 | 15 | book | 책, 도서, 예약하다, 저서 |
 | 16 | fair | 타당한, 온당한, 공정한, 박람회 |
 | 17 | contest | 대회, 시합, 다툼, 경쟁 |
