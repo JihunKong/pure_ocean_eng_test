@@ -9,95 +9,95 @@
 | 219 | terrace | 테라스 |
 | 220 | feather | 털, 깃털 |
 | 221 | stare at | ~을 응시하다 |
-| 222 | encouragement | 격려(고취) |
-| 223 | opposite | 다른 편(쪽)/반(대편) |
+| 222 | encouragement | 격려(고무) |
+| 223 | opposite | 다른 편(쪽)의 건너편의 |
 | 224 | knock into | ~에 부딪치다, ~와 우연히 만나다 |
 | 225 | shout | 외치다, 소리치다 |
 | 226 | be astonished | 놀라다 |
 | 227 | harmony | 조화, 화합, 화음, 화성법 |
 | 228 | speechless | 말을 못 하는 |
-| 229 | brilliancy | 총명하게, 겉 |
+| 229 | brilliancy | 훌륭하게, 잘 |
 | 230 | correction | 정정(수정) |
 | 231 | dormitory | 공동 침실, 기숙사 |
 | 232 | extraordinary | 기이한, 놀라운, 비범한, 대단한 |
-| 233 | encouragement | 격려(고취) |
-| 234 | genuine | 진짜의, 진정한, 진심의, 참된 마음 |
-| 235 | respect | 존경(의), 경의, 존중 |
+| 233 | encouragement | 격려(고무) |
+| 234 | genuine | 진짜의, 진품의, 진실한, 진심 어린 |
+| 235 | respect | 존경(심), 경의, 존중, 정중 |
 | 236 | attempt | 시도, 시도하다, 애써 해보다 |
-| 237 | categorize | 분류하다, ~을 범주에 넣다, 분류해서 나타내다 |
-| 238 | socialize | 사귀다(어울리다)/사회화되다 |
-| 239 | introvert | 마음속에 사는 |
-| 240 | comfortable | 편안한, 제대한 |
-| 241 | complement | 보완하다, 강화시다 |
-| 242 | accomplishment | 성취, 공적, 성공, 기량, 완수 |
+| 237 | categorize | 분류하다, ~을 범주에 넣다, 분류하다 |
+| 238 | socialize | 사귀다(어울리다/교제하다) |
+| 239 | extrovert | 외향적인 사람 |
+| 240 | comfortable | 편안한, 쾌적한 |
+| 241 | complement | 보완하다, 덧붙이다 |
+| 242 | accomplishment | 성취, 공적, 재주, 기량, 완수 |
 | 243 | collaborate | 협력하다, 공동으로 작업하다 |
-| 244 | personality | 성격, 인격, 개성, 성품 |
-| 245 | get on | 성공하다, 타다(차나리다), 꽤 나이가 들다 |
+| 244 | personality | 성격, 인격, 개성, 유명인 |
+| 245 | get on | 성공하다, 하다(지내다), 꾸려 나가다 |
 | 246 | be divided into | ~로 나누어지다 |
 | 247 | passenger | 승객 |
 | 248 | introvert | 내향적인(성격) |
 | 249 | furious | 몹시 화가 난 |
 | 250 | arrest | 체포하다 |
 | 251 | resistance | 저항(반대) |
-| 252 | inspirational | 영감(창조력)을 주는 |
+| 252 | inspirational | 영감(감화/자극)을 주는 |
 | 253 | assertive | 확신에 찬, 적극적인 |
-| 254 | sociable | 사교성이 있는(서로 좋아하는) |
-| 255 | trample | 짓밟다, 밟아 통과다 |
-| 256 | get tired of | 싫증 내다(지다) |
-| 257 | sunlight | 햇빛, 햇볕, 햇살 |
-| 258 | presence | 있음, 존재, 접석, 임옹 |
+| 254 | sociable | 사람들과 어울리기 좋아하는 |
+| 255 | trample | 짓밟다, 밟아 뭉개다 |
+| 256 | get tired of | 삶에 지치다 |
+| 257 | sunlight | 햇빛, 일광, 햇살 |
+| 258 | presence | 있음, 존재, 참석, 있음 |
 | 259 | bravery | 용기 |
 | 260 | praise | 칭찬, 찬사, 찬양 |
-| 261 | strengthen | 강화하다, 강해제하다, 강해지다 |
-| 262 | community | 지역, 지역사회, 공동체 |
-| 263 | trail | 복달 |
-| 264 | charisma | 카리스마, 사람들을 끌어당는 매력 |
+| 261 | strengthen | 강화되다, 강력해지다, 강화하다 |
+| 262 | community | 주민, 지역사회, 공동체 |
+| 263 | trail | 특성 |
+| 264 | charisma | 카리스마, 사람들을 휘어잡는 매력 |
 | 265 | impact | 영향, 충격 |
-| 266 | combine | 섞음(다) |
+| 266 | combine | 결합하다 |
 | 267 | attract | 마음을 끌다 |
 | 268 | simultaneously | 동시에 |
-| 269 | engineering | 공학, 기술, 공학 |
-| 270 | brilliant | 훌륭한, 영민 |
-| 271 | come up with | 생각해내다, 제시(발견)하다 |
+| 269 | engineering | 공학 기술, 공학 |
+| 270 | brilliant | 훌륭한, 멋진 |
+| 271 | come up with | 생산하다, 제시(제안)하다 |
 | 272 | enable | ~을 할 수 있게 하다 |
 | 273 | terrific | 아주 좋은, 멋진, 훌륭한 |
 | 274 | impossible | 불가능한 |
 | 275 | entrepreneur | 사업가(기업가) |
 | 276 | forest | 숲, 삼림 |
-| 277 | unseen | 눈에 보이지(다시) 않는 |
-| 278 | remain | 계속되(남아있)~이다 |
+| 277 | unseen | 눈에 보이지(띄지) 않는 |
+| 278 | remain | 계속(여전히) ~이다 |
 | 279 | worship | 예배, 숭배 |
 | 280 | century | 세기, 100년 |
-| 281 | decrease | 줄어들다(감소)하다 |
-| 282 | approximately | 거의(정확하게), 거의여 |
+| 281 | decrease | 줄이다(감소시키다) |
+| 282 | approximately | 거의(정확하게), 가까이 |
 | 283 | habitat | 서식지 |
 | 284 | extinct | 멸종된 |
 | 285 | estimate | 추정치, 추산 |
 | 286 | subspecies | 아종, 변종 |
 | 287 | extinct | 멸종된, 사라진 |
 | 288 | predict | 예측(예견)하다 |
-| 289 | disappear | 사라지다, 없어지 눈에 띄지 않다 |
+| 289 | disappear | 사라지다, 보이지 않게 되다 |
 | 290 | expert | 전문가, 숙련된 |
 | 291 | maintain | 유지하다(지키다) |
 | 292 | deer | 사슴 |
 | 293 | vegetation | 초목(식물) |
-| 294 | cause | 원인(이다), 향한, 이유 |
+| 294 | cause | 야기하다, 원인, 이유 |
 | 295 | exception | 예외 |
 | 296 | rely on | 기대다, 의존하다 |
 | 297 | survive | 살아남다, 생존(존속)하다 |
 | 298 | disappearance | 사라짐 |
-| 299 | threaten | 위협(위해)하다 |
-| 300 | conserve | 아끼다, 지켜 주다 |
+| 299 | threaten | 위협(협박)하다 |
+| 300 | conserve | 아끼다, 아껴 쓰다 |
 | 301 | a variety of | 다양한, 여러가지의 |
-| 302 | electricity | 전기, 전력, 발휘, 흥분 |
+| 302 | electricity | 전기, 전력, 열광, 흥분 |
 | 303 | contribute to | ~에 기여하다 |
 | 304 | ocean | 대양, 바다 |
 | 305 | whenever | ~할 때는 언제든지 |
 | 306 | plantation | 농장, 조림지 |
-| 307 | destroy | 파괴하다, 망치다다, 죽이다 |
+| 307 | destroy | 파괴하다, 말살하다, 죽이다 |
 | 308 | sustainable | 지속 가능한 |
-| 309 | rise | 오르(강상) |
-| 310 | palm | 손바닥, 야자의 나무 |
+| 309 | rise | 증가(상승) |
+| 310 | palm | 손바닥, 야자과 나무 |
 | 311 | difference | 차이, 다름 |
 | 312 | remember | 기억하다 |
 | 313 | be considered | ~로 간주되다 |
@@ -107,37 +107,37 @@
 | 번호 | 영어 단어 | 한국어 뜻 |
 |------|----------|-----------|
 | 1 | community | 주민, 지역 사회 |
-| 2 | previous | 이전의(과거) |
-| 3 | booth | 칸막이, 좌석, 부스, 매점 |
+| 2 | previous | 이전(전)의 |
+| 3 | booth | 작은 공간, 부스, 점포, 전시장 |
 | 4 | reserve | 예약하다, 보유하다, 보류하다 |
-| 5 | complete | 완벽하다, 완전하다, 가득하다 |
-| 6 | registration | 등록, 신고, 등기하다 |
+| 5 | complete | 완료하다, 끝마치다, 보류하다 |
+| 6 | registration | 등록, 신고, 등기처리 |
 | 7 | fee | 수수료, 요금 |
-| 8 | receive | 받다, 맞아들이다 |
+| 8 | receive | 받다, 받아들이다 |
 | 9 | rental | 사용료, 임대료 |
 | 10 | support | 지지하다, 지원하다, 지원, 지원 |
-| 11 | upcoming | 다가오는, 곧 일깔 |
-| 12 | activity | 활동, 흥건함, 활기 |
-| 13 | throughout | 도처에, 종일, 통 내내 |
-| 14 | available | 구해(이용할) 수 있는 |
-| 15 | look | 쳐다(보기), 빠바각다, 사시 |
-| 16 | fair | 마당(판), 온화한, 공공한, 박람회 |
+| 11 | upcoming | 다가오는, 곧 있을 |
+| 12 | activity | 활동, 움직임, 활기 |
+| 13 | throughout | 도처에, 종일, 쭉 내내 |
+| 14 | available | 구할(이용할) 수 있는 |
+| 15 | book | 책, 도서, 예약하다, 저서 |
+| 16 | fair | 타당한, 온당한, 공정한, 박람회 |
 | 17 | contest | 대회, 시합, 다툼, 경쟁 |
 | 18 | amazing | 놀라운 |
 | 19 | artwork | 도안, 삽화 |
-| 20 | look at | ~을 보다, ~을 보다가 |
-| 21 | confidence | 신뢰, 자신있, 확신 |
-| 22 | congratulation | 축하 |
+| 20 | look at | ~을 보다, ~을 살피다 |
+| 21 | confidence | 신뢰, 자신(감), 확신 |
+| 22 | congratulation | 축하(인사) |
 | 23 | judge | 판사, 심판, 심사위원 |
 | 24 | congratulation | 축하(인사) |
-| 25 | uniqueness | 독특성 |
+| 25 | uniqueness | 고유성 |
 | 26 | confirm | 사실임을 보여주다, 확징하다 |
-| 27 | identify | 신원, 신분, 경력 |
+| 27 | identify | 신원, 신분, 정체 |
 | 28 | especially | 특히, 특별히, 유난히 |
-| 29 | generation | 세대(시대의 변천) |
+| 29 | generation | 세대(비슷한 연령층) |
 | 30 | expect | 기대(예상)하다 |
-| 31 | overnight | 밤(시간에), 하룻밤 동안 |
-| 32 | false | 틀린, 거짓의 면난 |
+| 31 | overnight | 밤사이에, 하룻밤 동안 |
+| 32 | false | 틀린, 사실이 아닌 |
 | 33 | expectation | 예상, 기대 |
 | 34 | tend to | ~하는 경향이 있다 |
 | 35 | discourage A from B | A가 B하는 것을 좋아게 하다 |
