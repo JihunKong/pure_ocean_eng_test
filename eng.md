@@ -140,7 +140,7 @@
 | 32 | false | 틀린, 사실이 아닌 |
 | 33 | expectation | 예상, 기대 |
 | 34 | tend to | ~하는 경향이 있다 |
-| 35 | discourage A from B | A가 B하는 것을 좋아게 하다 |
+| 35 | discourage A from B | A가 B하는 것을 못하게 하다 |
 | 36 | continue | 계속되다, 계속하다 |
 | 37 | move forward | 전진하다 |
 | 38 | society | (특정한) 집단(국가/사회) |
