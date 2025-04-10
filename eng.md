@@ -163,7 +163,7 @@
 | 55 | vehicle | 차량, 탈것, 운송 수단 |
 | 56 | forward | 앞으로 |
 | 57 | barrier | 장벽, 장애물 |
-| 58 | be worth ~ing | ~할 가지가 있다 |
+| 58 | be worth ~ing | ~할 가치가 있다 |
 | 59 | pursuit | 추구, 추적, 추격 |
 | 60 | concept | 개념 |
 | 61 | possess | 소유하다 소지하다 보유하다 |
